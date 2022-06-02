@@ -1,16 +1,26 @@
 # concesionario2.0
 
-Instalación del entorno virtual y de los requisitos
-Linux sudo apt-get install python3-venv # Si es necesario instalamos este módulo python3 -m venv env
+# Instalación del entorno virtual y de los requisitos
 
-macOS python3 -m venv env
+1. Linux
+sudo apt-get install python3-venv    # Si es necesario instalamos este módulo
+python3 -m venv env
 
-Windows python -m venv env
+2. macOS
+python3 -m venv env
 
-Activación del entorno virtual
-Windows env\Scripts\activate.bat
+3. Windows
+python -m venv env
 
-Linux y Mac source tutorial-env/bin/activate
+# Activación del entorno virtual
 
-Instalación de los requisitos
+1. Windows
+env\Scripts\activate.bat
+
+2. Linux y Mac
+source tutorial-env/bin/activate
+
+# Instalación de los requisitos
 pip install requirements.txt
+
+# Descripción breve de las funcionalidades del proyecto
